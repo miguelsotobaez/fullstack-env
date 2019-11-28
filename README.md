@@ -6,9 +6,11 @@ Server-> Node.js + Express + MongoDB
 
 Client -> Angular + Angular material
 
+API data from: https://hn.algolia.com/api/v1/search_by_date?query=nodejs
+
 Instruction:
 
-Just Run the aplication server and client to see hacker news feed.
+Just Run NPM update in both enviroment and run it to see hacker news feed.
 
 Server local url -> http://localhost:8080/
 
