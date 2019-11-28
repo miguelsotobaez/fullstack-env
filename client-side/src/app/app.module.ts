@@ -8,10 +8,13 @@ import { MaterialModule } from './material.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { NewsService } from './news.service';
+import {MatDialogModule} from "@angular/material";
+import { ModalComponent } from './modal.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,
@@ -21,10 +24,13 @@ import { NewsService } from './news.service';
     ReactiveFormsModule,
     FormsModule,
     HttpClientModule,
-    
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA]
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
+  entryComponents: [
+    ModalComponent
+  ],
 })
 export class AppModule { }

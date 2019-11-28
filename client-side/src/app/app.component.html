@@ -16,19 +16,19 @@
             <!-- Title Column -->
             <ng-container matColumnDef="title">
               <th mat-header-cell *matHeaderCellDef> Title </th>
-              <td mat-cell *matCellDef="let element"> {{element.title}} </td>
+              <td mat-cell *matCellDef="let element" (click)="getStory(element.story, element.title)"> {{element.title}} </td>
             </ng-container>
           
             <!-- Author Column --> 
             <ng-container matColumnDef="author">
               <th mat-header-cell *matHeaderCellDef> Author </th>
-              <td mat-cell *matCellDef="let element"> {{element.author}} </td>
+              <td mat-cell *matCellDef="let element" (click)="getStory(element.story, element.title)"> {{element.author}} </td>
             </ng-container>
           
             <!-- Date Column -->
             <ng-container matColumnDef="date">
               <th mat-header-cell *matHeaderCellDef> Date </th>
-              <td mat-cell *matCellDef="let element"> {{element.date}} </td>
+              <td mat-cell *matCellDef="let element" (click)="getStory(element.story, element.title)"> {{element.date}} </td>
             </ng-container>
           
           
