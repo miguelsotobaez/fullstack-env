@@ -1,21 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@miguelsotobaez 
-2.9k
-92.2k47.3kgithub/gitignore
- Code Pull requests 117 Actions Projects 0 Security Insights
-gitignore/Node.gitignore
-@karlhorky karlhorky Comment out / add note about conflicting gitignore lines (#3204)
-2644536 on 24 Oct
-@stuartpb@shiftkey@TennyZhuang@venatoria@ro31337@Richienb@melonmanchan@gouthamve@jucrouzet@cheddar@arcresu@kesoji@tejashah88@sroberts@SimonSiefke@segayuu@MCSH@rgbkrk@rsolomo@peat@noinkling@ndelvalle@MikeRalphson@lmedson@unixchad@kerimdzhanov
-104 lines (76 sloc)  1.57 KB
- 
 # Logs
 logs
 *.log
