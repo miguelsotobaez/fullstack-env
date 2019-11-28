@@ -12,5 +12,8 @@
     "json"
   ],
   "author": "Miguel Soto Baez",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
