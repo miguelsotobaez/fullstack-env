@@ -1,7 +1,9 @@
 # fullstack-env
 
 Made with:
+
 Server-> Node.js + Express + MongoDB
+
 Client -> Angular + Angular material
 
 Instruction:
