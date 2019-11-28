@@ -1,4 +1,3 @@
-// FileName: index.js
 // Import express
 let express = require('express')
 // Initialize the app
@@ -11,3 +10,8 @@ app.get('/', (req, res) => res.send('Hello World with Express'));
 app.listen(port, function () {
      console.log("Running Server on port " + port);
 });
+
+// Import routes
+let apiRoutes = require("./api-routes")
+// Use Api routes in the App
+app.use('/api', apiRoutes)
