@@ -81,6 +81,13 @@ Request.get("https://hn.algolia.com/api/v1/search_by_date?query=nodejs", (error,
     
 });
 
+// Use CORS FROM with Express
+app.use(function(req, res, next) {
+     res.header("Access-Control-Allow-Origin", "*");
+     res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+     next();
+});
+
 
 // Send data for default URL
 app.get('/', (req, res) => res.send(apiData));
